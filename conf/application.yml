@@ -1,0 +1,48 @@
+server:
+  port: 82
+host: 127.0.0.1
+name: javaRu-Log
+logs:
+  - name: nginx
+    ip: 127.0.0.1
+    userName: root 
+    passWord: xxxxxx
+    path: /var/log/nginx/access.log
+  - name: javaRu-service
+    ip: 127.0.0.1
+    userName: root
+    passWord: xxxxxx
+    path: /rxc/javaru/logs/catalina.out
+  - name: security-service
+    ip: 127.0.0.1
+    userName: root
+    passWord: xxxxxx
+    path: /security-service/logs/catalina.out
+  - name: eureka-service
+    ip: 127.0.0.1
+    userName: root
+    passWord: xxxxxx
+    path: /eureka-client/logs/catalina.out 
+  - name: gateway-service
+    ip: 127.0.0.1
+    userName: root
+    passWord: xxxxxx
+    path: /gateway-client/logs/catalina.out 
+  - name: config-service
+    ip: 127.0.0.1
+    userName: root
+    passWord: xxxxxx
+    path: /config-client/logs/catalina.out
+    
+spring:
+  freemarker:
+    content-type: text/html
+    charset: UTF-8
+    cache: false
+    template-loader-path: classpath:/templates/
+    check-template-location: true
+    suffix: .ftl
+    settings:
+      classic_compatible: true
+      datetime_format: yyyy-MM-dd HH:mm:ss
+      default_encoding: UTF-8

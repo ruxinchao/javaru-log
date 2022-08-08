@@ -1,0 +1,2 @@
+INFO   | jvm 1    | 2022/08/08 17:53:01 | 2022-08-08 17:53:01.677 ERROR 12056 --- [pool-1-thread-7] com.javaru.log.handler.LogHandler        : type: cmdb-service, thread: com.javaru.log.handler.LogHandler, channel close error: UT002002: Channel is closed
+INFO   | jvm 1    | 2022/08/08 17:54:27 | 2022-08-08 17:54:27.242 ERROR 12056 --- [pool-1-thread-2] com.javaru.log.handler.LogHandler        : type: nginx, thread: com.javaru.log.handler.LogHandler, channel close error: UT002002: Channel is closed
