@@ -21,14 +21,14 @@ jdk 版本：1.8
 ```
 ### 开发
 ```bash
-    ## linux
+   ## linux
      启动：./bin/javaru-log start
      关闭：./bin/javaru-log  stop
      重启：./bin/javaru-log restart
-    ## window（powershell）
-      ./bin/javaru-log console
+   ## window（powershell）
+     ./bin/javaru-log console
    ## 浏览器访问: 
-      http://localhost:82
+     http://localhost:82
 ```
 ## 配置（conf/application.yml）
     server:
